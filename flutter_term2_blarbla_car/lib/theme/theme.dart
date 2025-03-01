@@ -48,6 +48,9 @@ class BlaColors {
 class BlaTextStyles {
   static TextStyle heading = TextStyle(fontSize: 28, fontWeight: FontWeight.w500);
 
+ static TextStyle title =  TextStyle(fontSize: 20, fontWeight: FontWeight.w400);
+
+
   static TextStyle body =  TextStyle(fontSize: 16, fontWeight: FontWeight.w400);
 
   static TextStyle label =  TextStyle(fontSize: 13, fontWeight: FontWeight.w400);
@@ -72,7 +75,9 @@ class BlaSpacings {
   static const double radiusLarge = 24; 
 }
 
-
+class BlaSize {
+  static const double icon = 24;
+}
 
 ///
 /// Definition of App Theme.
